@@ -12,9 +12,7 @@ The Personal Expense Tracker application allows users to manage their expenses e
 3. [Technologies Used](#technologies-used)
 4. [Installation and Setup](#installation-and-setup)
 5. [Usage](#usage)
-6. [Testing](#testing)
-7. [Deployment](#deployment)
-8. [Additional Notes](#additional-note)
+6. [Additional Notes](#additional-note)
 
 ## Features
 
@@ -68,8 +66,8 @@ The Personal Expense Tracker application allows users to manage their expenses e
 
 1. **Clone the repository:**
     ```bash
-    https://github.com/Biswajeet-23/mern-personal-expense-tracker
-    cd personal-expense-tracker
+    https://github.com/Manjitkumarsahoo/MERN-Expense-Tracker.git
+    cd MERN-Expense-Tracker
     ```
 
 2. **Install dependencies:**
