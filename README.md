@@ -14,7 +14,7 @@ The Personal Expense Tracker application allows users to manage their expenses e
 5. [Usage](#usage)
 6. [Testing](#testing)
 7. [Deployment](#deployment)
-8. [Additional Notes](#additional-notes)
+8. [Additional Notes](#additional-note)
 
 ## Features
 
