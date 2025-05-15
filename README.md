@@ -1,24 +1,91 @@
-# 💰 MERN Expense Tracker
+Personal Expense Tracker
+Overview
+The Personal Expense Tracker application allows users to manage their expenses efficiently. Users can record their expenses, categorize them, and view summaries to gain insights into their spending habits. The application includes user account management, secure sessions, and comprehensive error handling.
 
-A full-stack Expense Tracker application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to add, track, and delete expenses with a clean and user-friendly interface.
+Table of Contents
+Features
+System Design and Architecture
+Technologies Used
+Installation and Setup
+Usage
+Testing
+Deployment
+Additional Notes
+Features
+User Management
+User registration and login.
+Secure session management.
+Expense Management
+Add new expense entries with date, amount, category, and description.
+View, edit, or delete existing expense entries.
+Category Management
+Categorize expenses (e.g., food, transportation, entertainment).
+Default categories provided; users can create custom categories.
+Summary and Insights
+View total spending for a given time period (daily, weekly, monthly).
+Display spending by category to identify high-expense areas.
+Design
+Neumorphism: The UI employs Neumorphism design principles for a modern, soft, and engaging user experience.
+Dark and Light Mode: The application supports both dark and light modes, allowing users to switch based on their preference.
+System Design and Architecture
+High-Level Design
+Front-end: React application for the client-side interface.
+Back-end: Node.js with Express for the server-side logic.
+Database: MongoDB for storing user and expense information.
+Data Flow
+User Actions: Users interact with the React front-end.
+API Requests: Front-end sends API requests to the Express back-end.
+Database Operations: The back-end communicates with MongoDB to perform CRUD operations.
+Responses: The back-end sends responses back to the front-end, which updates the UI accordingly.
+Technologies Used
+Front-end: React, Chakra UI for styling, React Router for navigation.
+Back-end: Node.js, Express.js.
+Database: MongoDB, Mongoose for object data modeling.
+Authentication: JWT for secure user sessions.
+Installation and Setup
+Prerequisites
+Node.js and npm installed.
+MongoDB installed and running.
+Steps
+Clone the repository:
 
-## 🚀 Features
+https://github.com/Biswajeet-23/mern-personal-expense-tracker
+cd personal-expense-tracker
+Install dependencies: Navigate to the api directory and start the backend application:
 
-- Add and delete expenses
-- View expense history
-- Track balance, income, and expenses
-- Responsive and modern UI (built with React and Chakra UI)
-- MongoDB backend for data persistence
-- JWT-based authentication (if applicable)
+npm install
+Set up environment variables: Create a .env file in the root directory and add the following:
 
-## 🛠️ Tech Stack
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+Start the development server:
 
-- **Frontend:** React, Vite, Chakra UI
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
-- **Other Tools:** Dotenv, Nodemon
+npm run dev
+Run the front-end: Navigate to the client directory and start the React application:
 
-### Prerequisites
-
-- Node.js & npm
-- MongoDB installed and running locally
+cd client
+npm install
+npm run dev
+Usage
+Register and Login
+Register a new account or log in with existing credentials.
+For testing purposes, you can use the following credentials:
+Username: dummy01
+Password: 1234
+Add Expense
+Navigate to the "Add Expense" section and fill in the required details.
+View and Manage Expenses
+View your expenses in the "Expenses" section.
+Edit or delete entries as needed.
+View Summary
+Access the "Summary" section to see your spending habits over different time periods.
+Deployed to Render (Front-end)
+Clik on the link to visit the live website personal-expense-tracker.
+Additional Notes
+Error Handling
+The application includes comprehensive error handling to provide meaningful feedback to the user.
+Best Practices
+The code follows best practices for both front-end and back-end development, including security measures for handling user data and sessions.
+Future Enhancements
+Implement additional insights and analytics.
+Add support for recurring expenses and notifications.
